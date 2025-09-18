@@ -5,3 +5,6 @@ export const Extension = (props: { tree: Tree; resource: Application }) => (
     <h1>Application {props.resource.metadata.name}</h1>
   </div>
 );
+
+// eslint-disable-next-line react-refresh/only-export-components
+export const component = Extension;
